@@ -45,7 +45,7 @@ router.post("/create", async (req, res) => {
           <p><strong>Message:</strong> ${message}</p>
           <p><strong>Meeting Date:</strong> ${meetingDate || "Not provided"}</p>
           <p><strong>Meeting Time:</strong> ${meetingTime || "Not provided"}</p>
-          <p><a href="http://localhost:5173/login" target="_blank">Login to see candidate details</a></p>
+          <p><a href="https://portfoliofront-sooty.vercel.app/login" target="_blank">Login to see candidate details</a></p>
         `,
       };
 
